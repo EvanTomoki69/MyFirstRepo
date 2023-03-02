@@ -31,3 +31,23 @@ git status
 git commit
 -- crea un snapshot de los cambios y los guarda en el directorio de Git con un mensaje
 git commit -m "Hola, este es un ejemplo y estos cambios son útiles, no los rechaces unu"
+
+
+This is a really good space for put a piece of my Selenium Intro 
+code, let me show ya:
+public static void main(String[] args) throws InterruptedException
+	{
+		Thread.sleep(1500);
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\ChromeDriver\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.rahulshettyacademy.com/angularpractice/");
+		
+		WebElement nameField = driver.findElement(By.name("name"));
+		nameField.clear();
+		nameField.sendKeys("Evan Tomoki");
+
+I think that I have a nice try working with Angular automatization.
+
