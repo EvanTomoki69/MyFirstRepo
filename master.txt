@@ -1,3 +1,33 @@
 This is my first file created on git
 
 Here we have another modification!
+
+Now, let me add some useful git commands in case you'll get stuck in a future, young Me:
+
+git init
+-- crea un repositorio LOCAL en el directorio actual
+
+-- también puedes crear un repo en un nuevo directorio especificando el nombre del proyecto
+git init [nombre del proyecto]
+
+git clone
+-- es usado para copiar un repo, en dado caso de que este de manera remota usa
+git clone username@host:/path/to/repository
+
+-- si esta de manera local
+git clone /path/to/repository
+
+git add
+-- es usado para añadir archivos al area de stagging, por ejemplo:
+git add master.txt
+
+git touch
+-- toca y añade un archivo al índice
+touch master.txt
+
+git status
+-- despliega la lista de los cambios realizados a los archivos
+
+git commit
+-- crea un snapshot de los cambios y los guarda en el directorio de Git con un mensaje
+git commit -m "Hola, este es un ejemplo y estos cambios son útiles, no los rechaces unu"
